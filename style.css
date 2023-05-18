@@ -1,0 +1,665 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 0 200px 0 200px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/ruby-programming-code-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--font-family);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 0;
+    padding: 0px;
+    width: 100%;
+    height: 140px;
+}
+.image {
+    width: 20%;
+    height: 100%;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+}
+.headerOptions {
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+}
+.headerOptions a {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+.headerOptions a:hover {
+    color: yellow;
+}
+.bodyUpContainer {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 108px;
+}
+.titlePrincipal {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    text-align: start;
+    color: white;
+}
+.titlePrincipal h1 {
+    width: 100%;
+    font-size: 80px;
+    margin: 0 0 20px 0;
+    padding: 0px;
+}
+.titlePrincipal h1 > a {
+    text-decoration: underline yellow;
+    text-underline-offset: 8px;
+}
+.titlePrincipal p {
+    font-size: large;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.titlePrincipal > a {
+    width: 100%;
+    text-decoration: underline yellow 4px;
+    font-size: larger;
+    text-transform: uppercase;
+    color: white;
+    text-underline-offset: 8px;
+}
+.titlePrincipal > a:hover {
+    color: yellow;
+    text-decoration: underline white 3px;
+}
+.imageBodyUp {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+.imageBodyUp img {
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    object-position: center left;
+    border-radius: 25%;
+}
+.programLanguages {
+    display: flex;
+    margin-top: 90px;
+    width: 100%;
+    height: 400px;
+    color: white;
+    margin-bottom: 140px;
+}
+.languagesOne {
+    width: 33%;
+}
+.html h1 {
+    font-size: 60px;
+    margin: 0 0 40px 0;
+}
+.html p {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.css h1 {
+    font-size: 60px;
+    margin: 0 0 40px 0;
+}
+.css p {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.javascript h1 {
+    font-size: 60px;
+    margin: 0 0 40px 0;
+}
+.javascript p {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.languagesTwo {
+    width: 33%;
+}
+.accessibility h1 {
+    font-size: 60px;
+    margin: 0 0 40px 0;
+}
+.accessibility p {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.languagesThree {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.cSharp h1 {
+    font-size: 60px;
+    margin: 0 0 40px 0;
+}
+.cSharp p {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.wpf h1 {
+    font-size: 60px;
+    margin: 0 0 40px 0;
+}
+.wpf p {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.todoJunto {
+    width: 100%;
+    height: 2500px;
+}
+.titleProjectsMiddle {
+    color: white;
+    font-size: 120px;
+    font-weight: 700;
+}
+.myProjects {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+.myProjects h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.myProjects img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    border: 4px solid yellow;
+    object-fit: cover;
+    object-position: center center;
+    margin-bottom: 32px;
+}
+.myProjects a {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline 4px yellow;
+    text-underline-offset: 4px;
+}
+.myProjects a:hover {
+    color: yellow;
+    text-decoration: underline white 3px;
+}
+.columnOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; 
+    height: 100%;
+    padding-right: 10px;
+    text-align: center;
+}
+.columnTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+    text-align: center;
+}
+.projects {
+    width: 100%;
+    margin-bottom: 140px;
+}
+.titleProjects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titleProjects h1{
+    font-size: 120px;
+    font-weight: 600;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.titleProjects a {
+    width: 100%;
+    text-decoration: underline yellow 4px;
+    font-size: larger;
+    text-transform: uppercase;
+    color: white;
+    text-underline-offset: 8px;
+    text-align: end;
+}
+.titleProjects a:hover {
+    color: yellow;
+    text-decoration: underline white 3px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    height: 100%;
+    width: 60%;
+}
+.description h1 {
+    margin-top: 4%;
+    font-size: 120px;
+    font-weight: 700;
+}
+.description p {
+    letter-spacing: 1px;
+}
+.form {
+    width: 40%;
+    height: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+form label {
+    text-indent: 20px;
+}
+form input {
+    margin-bottom: 40px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+input:focus-visible {
+    outline: 2px solid white;
+}
+form input:last-child {
+    border: none;
+    padding-bottom: 12px;
+    margin-bottom: 0px;
+    align-self: flex-end;
+    text-transform: uppercase;
+    text-decoration: underline yellow 3px;
+    text-underline-offset: 10px;
+    letter-spacing: 1px;
+}
+form input:last-child:hover {
+    cursor: pointer;
+    color: yellow;
+    text-decoration: underline white 3px;
+}
+#fname:focus {
+    border: none;
+}
+.lastFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 375px) {
+    * {
+        box-sizing: border-box;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        padding: 0 12px 0 12px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 200px;
+    }
+    .image {
+        width: 100%;
+        height: 80%;
+    }
+    .image img {
+        width: 100%;
+        height: 100%;
+    }
+    .headerOptions {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .headerOptions a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+    }
+    .bodyUpContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 800px;
+        margin: 0px;
+        align-items: center;
+    }
+    .titlePrincipal {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    .titlePrincipal h1 {
+        width: 100%;
+        font-size: 20px;
+        margin: 0 0 20px 0;
+        padding: 0px;
+    }
+    .titlePrincipal h1 > a {
+        text-decoration: underline yellow;
+        text-underline-offset: 8px;
+    }
+    .titlePrincipal p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .titlePrincipal > a {
+        width: 100%;
+        text-decoration: underline yellow 4px;
+        font-size: larger;
+        text-transform: uppercase;
+        color: white;
+        text-underline-offset: 8px;
+    }
+    .titlePrincipal > a:hover {
+        color: yellow;
+        text-decoration: underline white 3px;
+    }
+    .imageBodyUp {
+        display: flex;
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .imageBodyUp img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center left;
+        border-radius: 25%;
+    }
+    .programLanguages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        width: 100%;
+        height: 680px;
+        color: white;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .languagesOne {
+        width: 100%;
+    }
+    .html h1 {
+        font-size: 40px;
+        margin: 0px;
+    }
+    .html p {
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 32px;
+    }
+    .css h1 {
+        font-size: 40px;
+        margin: 0px;
+    }
+    .css p {
+        text-transform: capitalize;
+        margin-bottom: 32px;
+        letter-spacing: 1px;
+    }
+    .javascript h1 {
+        font-size: 40px;
+        margin: 0px;
+    }
+    .javascript p {
+        text-transform: capitalize;
+        margin-bottom: 32px;
+        letter-spacing: 1px;
+    }
+    .languagesTwo {
+        width: 100%;
+    }
+    .accessibility h1 {
+        font-size: 40px;
+        margin: 0px;
+    }
+    .accessibility p {
+        text-transform: capitalize;
+        margin-bottom: 32px;
+        letter-spacing: 1px;
+    }
+    .languagesThree {
+        width: 100%;
+    }
+    .cSharp h1 {
+        font-size: 40px;
+        margin: 0px;
+    }
+    .cSharp p {
+        text-transform: capitalize;
+        margin-bottom: 32px;
+        letter-spacing: 1px;
+    }
+    .wpf h1 {
+        font-size: 40px;
+        margin: 0px;
+    }
+    .wpf p {
+        text-transform: capitalize;
+        margin-bottom: 32px;
+        letter-spacing: 1px;
+    }
+    .projects {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .todoJunto {
+        width: 100%;
+        height: 2300px;
+        text-align: center;
+    }
+    .titleProjectsMiddle {
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .myProjects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    .myProjects h1 {
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    .myProjects img {
+        width: 100%;
+        height: 200px;
+        border-radius: 50px;
+        border: 4px solid yellow;
+        object-fit: cover;
+        object-position: center center;
+        margin-bottom: 32px;
+    }
+    .columnOne {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%; 
+        height: 100%;
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+    }
+    .columnTwo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+    }
+    .titleProjects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    .titleProjects h1{
+        font-size: 40px;
+        font-weight: 600;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    .titleProjects a {
+        width: 100%;
+        height: 40px;
+        text-decoration: underline yellow 4px;
+        font-size: larger;
+        text-transform: uppercase;
+        color: white;
+        text-underline-offset: 8px;
+        text-align: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        color: white;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        height: 30%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .description h1 {
+        margin-top: 4%;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .description p {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .form {
+        width: 100%;
+        height: 70%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    form label {
+        text-indent: 20px;
+    }
+    form input {
+        margin-bottom: 40px;
+        background-color: transparent;
+        border-bottom: 2px solid white;
+    }
+    input:focus-visible {
+        outline: 2px solid white;
+    }
+    form input:last-child {
+        border: none;
+        padding-bottom: 12px;
+        margin-bottom: 0px;
+        align-self: flex-end;
+        text-transform: uppercase;
+        text-decoration: underline yellow 3px;
+        text-underline-offset: 10px;
+        letter-spacing: 1px;
+    }
+    form input:last-child:hover {
+        cursor: pointer;
+        color: yellow;
+        text-decoration: underline white 3px;
+    }
+    #fname:focus {
+        border: none;
+    }
+    .lastFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 200px;
+    }
+}
